@@ -1,0 +1,23 @@
+# Environment variables — NEVER commit your real .env
+.env
+
+# SQLite database (local data, don't commit)
+*.db
+*.sqlite
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
